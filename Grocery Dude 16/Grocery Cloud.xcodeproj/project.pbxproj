@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42002629178ADE550000AA09 /* CoreDataTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42002628178ADE550000AA09 /* CoreDataTVC.m */; };
+		4227D4F5177DB1E10017DF21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F4177DB1E10017DF21 /* Foundation.framework */; };
+		4227D4F7177DB1E10017DF21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F6177DB1E10017DF21 /* CoreGraphics.framework */; };
+		4227D4F9177DB1E10017DF21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F8177DB1E10017DF21 /* UIKit.framework */; };
+		4227D4FF177DB1E10017DF21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4227D4FD177DB1E10017DF21 /* InfoPlist.strings */; };
+		4227D501177DB1E10017DF21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227D500177DB1E10017DF21 /* main.m */; };
+		4227D505177DB1E10017DF21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227D504177DB1E10017DF21 /* AppDelegate.m */; };
+		4227D508177DB1E10017DF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4227D506177DB1E10017DF21 /* Main.storyboard */; };
+		4227D50B177DB1E10017DF21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227D50A177DB1E10017DF21 /* ViewController.m */; };
+		4227D50D177DB1E10017DF21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4227D50C177DB1E10017DF21 /* Images.xcassets */; };
+		4227D514177DB1E10017DF21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D513177DB1E10017DF21 /* XCTest.framework */; };
+		4227D515177DB1E10017DF21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F4177DB1E10017DF21 /* Foundation.framework */; };
+		4227D516177DB1E10017DF21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F8177DB1E10017DF21 /* UIKit.framework */; };
+		4227D51E177DB1E10017DF21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4227D51C177DB1E10017DF21 /* InfoPlist.strings */; };
+		4227D520177DB1E10017DF21 /* Grocery_CloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227D51F177DB1E10017DF21 /* Grocery_CloudTests.m */; };
+		424C6189178FE910005402F1 /* UnitsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424C6188178FE910005402F1 /* UnitsTVC.m */; };
+		424C618C178FE9F0005402F1 /* UnitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424C618B178FE9F0005402F1 /* UnitVC.m */; };
+		424C6191178FECF2005402F1 /* LocationsAtHomeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424C618E178FECF2005402F1 /* LocationsAtHomeTVC.m */; };
+		424C6192178FECF2005402F1 /* LocationsAtShopTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424C6190178FECF2005402F1 /* LocationsAtShopTVC.m */; };
+		424C6197178FED01005402F1 /* LocationAtHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424C6194178FED01005402F1 /* LocationAtHomeVC.m */; };
+		424C6198178FED01005402F1 /* LocationAtShopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424C6196178FED01005402F1 /* LocationAtShopVC.m */; };
+		425E569D17A6338800BC94CF /* Faulter.m in Sources */ = {isa = PBXBuildFile; fileRef = 425E569C17A6338800BC94CF /* Faulter.m */; };
+		425E56A017A6369E00BC94CF /* Thumbnailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 425E569F17A6369E00BC94CF /* Thumbnailer.m */; };
+		427ACA33178122CD002E5F24 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 427ACA31178122CD002E5F24 /* Model.xcdatamodeld */; };
+		428FD0051796B12C002E0D33 /* CoreDataPickerTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 428FD0041796B12C002E0D33 /* CoreDataPickerTF.m */; };
+		428FD0091796B223002E0D33 /* UnitPickerTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 428FD0081796B223002E0D33 /* UnitPickerTF.m */; };
+		428FD00C1796B532002E0D33 /* LocationAtHomePickerTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 428FD00B1796B532002E0D33 /* LocationAtHomePickerTF.m */; };
+		428FD00F1796B578002E0D33 /* LocationAtShopPickerTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 428FD00E1796B578002E0D33 /* LocationAtShopPickerTF.m */; };
+		42CB352E17843E040014CF8D /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB352D17843E040014CF8D /* Measurement.m */; };
+		42CB3532178440190014CF8D /* Amount.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB3531178440190014CF8D /* Amount.m */; };
+		42CC8BBF178440C000BC85C2 /* Model2toModel3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 42CC8BBE178440C000BC85C2 /* Model2toModel3.xcmappingmodel */; };
+		42CC8BC31784475000BC85C2 /* MigrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CC8BC21784475000BC85C2 /* MigrationVC.m */; };
+		42D00207178B674200DBE6FB /* PrepareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D00206178B674200DBE6FB /* PrepareTVC.m */; };
+		42D0020A178B74C700DBE6FB /* ShopTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D00209178B74C700DBE6FB /* ShopTVC.m */; };
+		42D41E5517C22D1D00769A97 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 42D41E1D17C22D1D00769A97 /* CHANGELOG.md */; };
+		42D41E5617C22D1D00769A97 /* libstackmob-v2.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D41E5417C22D1D00769A97 /* libstackmob-v2.1.0.a */; };
+		42D41E5817C22D4C00769A97 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D41E5717C22D4C00769A97 /* MobileCoreServices.framework */; };
+		42D41E5A17C22D5400769A97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D41E5917C22D5400769A97 /* SystemConfiguration.framework */; };
+		42D41E5C17C22D5B00769A97 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D41E5B17C22D5B00769A97 /* Security.framework */; };
+		42D41E5E17C22D6300769A97 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D41E5D17C22D6300769A97 /* CoreLocation.framework */; };
+		42D41E7717C231AF00769A97 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D41E7617C231AF00769A97 /* Item.m */; };
+		42D41E7A17C231B000769A97 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D41E7917C231B000769A97 /* Location.m */; };
+		42D41E7D17C231B000769A97 /* Item_Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D41E7C17C231B000769A97 /* Item_Photo.m */; };
+		42D41E8017C231B000769A97 /* LocationAtHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D41E7F17C231B000769A97 /* LocationAtHome.m */; };
+		42D41E8317C231B000769A97 /* LocationAtShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D41E8217C231B000769A97 /* LocationAtShop.m */; };
+		42D41E8617C231B000769A97 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D41E8517C231B000769A97 /* User.m */; };
+		42D41E8917C231B000769A97 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D41E8817C231B000769A97 /* Unit.m */; };
+		42D41E8C17C23FCE00769A97 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D41E8B17C23FCE00769A97 /* LoginVC.m */; };
+		42D8481C17A55310005BF2F6 /* Model7toModel8.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 42D8481B17A55310005BF2F6 /* Model7toModel8.xcmappingmodel */; };
+		42D8485417A55489005BF2F6 /* DefaultData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 42D8485317A55489005BF2F6 /* DefaultData.sqlite */; };
+		42D8A17F179BFF7500273DAD /* DefaultData.xml in Resources */ = {isa = PBXBuildFile; fileRef = 42D8A17E179BFF7500273DAD /* DefaultData.xml */; };
+		42D8A182179C835200273DAD /* CoreDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D8A181179C835200273DAD /* CoreDataImporter.m */; };
+		42F12F28178003C0001E0D8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F12F27178003C0001E0D8F /* CoreData.framework */; };
+		42F12F2C1780078D001E0D8F /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F12F2B1780078D001E0D8F /* CoreDataHelper.m */; };
+		42F4F988178F5E5000081A52 /* ItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4F987178F5E5000081A52 /* ItemVC.m */; };
+		42F80B7D17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 42F80B7C17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4227D517177DB1E10017DF21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4227D4E9177DB1E10017DF21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4227D4F0177DB1E10017DF21;
+			remoteInfo = "Grocery Dude";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42002627178ADE550000AA09 /* CoreDataTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTVC.h; sourceTree = "<group>"; };
+		42002628178ADE550000AA09 /* CoreDataTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTVC.m; sourceTree = "<group>"; };
+		4207C1E21788207C00B82E38 /* Model 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 5.xcdatamodel"; sourceTree = "<group>"; };
+		4207C1E917882BE700B82E38 /* Model 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 6.xcdatamodel"; sourceTree = "<group>"; };
+		4224656A17AF4F4700E28ECC /* Model 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 9.xcdatamodel"; sourceTree = "<group>"; };
+		4227D4F1177DB1E10017DF21 /* Grocery Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Cloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4227D4F4177DB1E10017DF21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4227D4F6177DB1E10017DF21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4227D4F8177DB1E10017DF21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4227D4FC177DB1E10017DF21 /* Grocery Cloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grocery Cloud-Info.plist"; sourceTree = "<group>"; };
+		4227D4FE177DB1E10017DF21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4227D500177DB1E10017DF21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4227D502177DB1E10017DF21 /* Grocery Cloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grocery Cloud-Prefix.pch"; sourceTree = "<group>"; };
+		4227D503177DB1E10017DF21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4227D504177DB1E10017DF21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4227D507177DB1E10017DF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4227D509177DB1E10017DF21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4227D50A177DB1E10017DF21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4227D50C177DB1E10017DF21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4227D512177DB1E10017DF21 /* Grocery CloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grocery CloudTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4227D513177DB1E10017DF21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4227D51B177DB1E10017DF21 /* Grocery CloudTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grocery CloudTests-Info.plist"; sourceTree = "<group>"; };
+		4227D51D177DB1E10017DF21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4227D51F177DB1E10017DF21 /* Grocery_CloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grocery_CloudTests.m; sourceTree = "<group>"; };
+		424C6187178FE910005402F1 /* UnitsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitsTVC.h; sourceTree = "<group>"; };
+		424C6188178FE910005402F1 /* UnitsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitsTVC.m; sourceTree = "<group>"; };
+		424C618A178FE9F0005402F1 /* UnitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitVC.h; sourceTree = "<group>"; };
+		424C618B178FE9F0005402F1 /* UnitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitVC.m; sourceTree = "<group>"; };
+		424C618D178FECF2005402F1 /* LocationsAtHomeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsAtHomeTVC.h; sourceTree = "<group>"; };
+		424C618E178FECF2005402F1 /* LocationsAtHomeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsAtHomeTVC.m; sourceTree = "<group>"; };
+		424C618F178FECF2005402F1 /* LocationsAtShopTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsAtShopTVC.h; sourceTree = "<group>"; };
+		424C6190178FECF2005402F1 /* LocationsAtShopTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsAtShopTVC.m; sourceTree = "<group>"; };
+		424C6193178FED01005402F1 /* LocationAtHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtHomeVC.h; sourceTree = "<group>"; };
+		424C6194178FED01005402F1 /* LocationAtHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtHomeVC.m; sourceTree = "<group>"; };
+		424C6195178FED01005402F1 /* LocationAtShopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtShopVC.h; sourceTree = "<group>"; };
+		424C6196178FED01005402F1 /* LocationAtShopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtShopVC.m; sourceTree = "<group>"; };
+		425E569B17A6338800BC94CF /* Faulter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Faulter.h; sourceTree = "<group>"; };
+		425E569C17A6338800BC94CF /* Faulter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Faulter.m; sourceTree = "<group>"; };
+		425E569E17A6369E00BC94CF /* Thumbnailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumbnailer.h; sourceTree = "<group>"; };
+		425E569F17A6369E00BC94CF /* Thumbnailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumbnailer.m; sourceTree = "<group>"; };
+		4279C2FA17843B0600C83C0F /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
+		427ACA32178122CD002E5F24 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		428FD0031796B12C002E0D33 /* CoreDataPickerTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataPickerTF.h; sourceTree = "<group>"; };
+		428FD0041796B12C002E0D33 /* CoreDataPickerTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataPickerTF.m; sourceTree = "<group>"; };
+		428FD0071796B223002E0D33 /* UnitPickerTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitPickerTF.h; sourceTree = "<group>"; };
+		428FD0081796B223002E0D33 /* UnitPickerTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitPickerTF.m; sourceTree = "<group>"; };
+		428FD00A1796B532002E0D33 /* LocationAtHomePickerTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtHomePickerTF.h; sourceTree = "<group>"; };
+		428FD00B1796B532002E0D33 /* LocationAtHomePickerTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtHomePickerTF.m; sourceTree = "<group>"; };
+		428FD00D1796B578002E0D33 /* LocationAtShopPickerTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtShopPickerTF.h; sourceTree = "<group>"; };
+		428FD00E1796B578002E0D33 /* LocationAtShopPickerTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtShopPickerTF.m; sourceTree = "<group>"; };
+		42CB352C17843E040014CF8D /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
+		42CB352D17843E040014CF8D /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
+		42CB352F17843FD10014CF8D /* Model 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 3.xcdatamodel"; sourceTree = "<group>"; };
+		42CB3530178440190014CF8D /* Amount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amount.h; sourceTree = "<group>"; };
+		42CB3531178440190014CF8D /* Amount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amount.m; sourceTree = "<group>"; };
+		42CC8BBE178440C000BC85C2 /* Model2toModel3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model2toModel3.xcmappingmodel; sourceTree = "<group>"; };
+		42CC8BC11784475000BC85C2 /* MigrationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MigrationVC.h; sourceTree = "<group>"; };
+		42CC8BC21784475000BC85C2 /* MigrationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MigrationVC.m; sourceTree = "<group>"; };
+		42CC8BC417844B1900BC85C2 /* Model 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 4.xcdatamodel"; sourceTree = "<group>"; };
+		42D00205178B674200DBE6FB /* PrepareTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrepareTVC.h; sourceTree = "<group>"; };
+		42D00206178B674200DBE6FB /* PrepareTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrepareTVC.m; sourceTree = "<group>"; };
+		42D00208178B74C700DBE6FB /* ShopTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopTVC.h; sourceTree = "<group>"; };
+		42D00209178B74C700DBE6FB /* ShopTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopTVC.m; sourceTree = "<group>"; };
+		42D41E1D17C22D1D00769A97 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		42D41E1F17C22D1D00769A97 /* AFHTTPClient+StackMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPClient+StackMob.h"; sourceTree = "<group>"; };
+		42D41E2017C22D1D00769A97 /* AFHTTPRequestOperation+RemoveContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperation+RemoveContentType.h"; sourceTree = "<group>"; };
+		42D41E2217C22D1D00769A97 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		42D41E2317C22D1D00769A97 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		42D41E2417C22D1D00769A97 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		42D41E2517C22D1D00769A97 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		42D41E2617C22D1D00769A97 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		42D41E2717C22D1D00769A97 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		42D41E2817C22D1D00769A97 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		42D41E2917C22D1D00769A97 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		42D41E2A17C22D1D00769A97 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		42D41E2B17C22D1D00769A97 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		42D41E2C17C22D1D00769A97 /* Base64EncodedStringFromData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64EncodedStringFromData.h; sourceTree = "<group>"; };
+		42D41E2D17C22D1D00769A97 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		42D41E2E17C22D1D00769A97 /* FileManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagement.h; sourceTree = "<group>"; };
+		42D41E2F17C22D1D00769A97 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		42D41E3017C22D1D00769A97 /* NSArray+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enumerable.h"; sourceTree = "<group>"; };
+		42D41E3117C22D1D00769A97 /* NSDictionary+AtomicCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AtomicCounter.h"; sourceTree = "<group>"; };
+		42D41E3217C22D1D00769A97 /* NSEntityDescription+StackMobSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+StackMobSerialization.h"; sourceTree = "<group>"; };
+		42D41E3317C22D1D00769A97 /* NSManagedObject+StackMobSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+StackMobSerialization.h"; sourceTree = "<group>"; };
+		42D41E3417C22D1D00769A97 /* NSManagedObjectContext+Concurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Concurrency.h"; sourceTree = "<group>"; };
+		42D41E3517C22D1D00769A97 /* SMBinaryDataConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBinaryDataConversion.h; sourceTree = "<group>"; };
+		42D41E3617C22D1D00769A97 /* SMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMClient.h; sourceTree = "<group>"; };
+		42D41E3717C22D1D00769A97 /* SMCoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCoreDataStore.h; sourceTree = "<group>"; };
+		42D41E3817C22D1D00769A97 /* SMCustomCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustomCodeRequest.h; sourceTree = "<group>"; };
+		42D41E3917C22D1D00769A97 /* SMDataStore+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMDataStore+Protected.h"; sourceTree = "<group>"; };
+		42D41E3A17C22D1D00769A97 /* SMDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMDataStore.h; sourceTree = "<group>"; };
+		42D41E3B17C22D1D00769A97 /* SMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMError.h; sourceTree = "<group>"; };
+		42D41E3C17C22D1D00769A97 /* SMGeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGeoPoint.h; sourceTree = "<group>"; };
+		42D41E3D17C22D1D00769A97 /* SMHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHTTPRequestOperation.h; sourceTree = "<group>"; };
+		42D41E3E17C22D1D00769A97 /* SMIncrementalStore+Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMIncrementalStore+Query.h"; sourceTree = "<group>"; };
+		42D41E3F17C22D1D00769A97 /* SMIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMIncrementalStore.h; sourceTree = "<group>"; };
+		42D41E4017C22D1D00769A97 /* SMIncrementalStoreNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMIncrementalStoreNode.h; sourceTree = "<group>"; };
+		42D41E4117C22D1D00769A97 /* SMJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJSONRequestOperation.h; sourceTree = "<group>"; };
+		42D41E4217C22D1D00769A97 /* SMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLocationManager.h; sourceTree = "<group>"; };
+		42D41E4317C22D1D00769A97 /* SMNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNetworkReachability.h; sourceTree = "<group>"; };
+		42D41E4417C22D1D00769A97 /* SMOAuth1Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMOAuth1Client.h; sourceTree = "<group>"; };
+		42D41E4517C22D1D00769A97 /* SMOAuth2Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMOAuth2Client.h; sourceTree = "<group>"; };
+		42D41E4617C22D1D00769A97 /* SMPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPredicate.h; sourceTree = "<group>"; };
+		42D41E4717C22D1D00769A97 /* SMPushClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPushClient.h; sourceTree = "<group>"; };
+		42D41E4817C22D1D00769A97 /* SMPushToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPushToken.h; sourceTree = "<group>"; };
+		42D41E4917C22D1D00769A97 /* SMQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMQuery.h; sourceTree = "<group>"; };
+		42D41E4A17C22D1D00769A97 /* SMRequestOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRequestOptions.h; sourceTree = "<group>"; };
+		42D41E4B17C22D1D00769A97 /* SMResponseBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMResponseBlocks.h; sourceTree = "<group>"; };
+		42D41E4C17C22D1D00769A97 /* SMSyncedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSyncedObject.h; sourceTree = "<group>"; };
+		42D41E4D17C22D1D00769A97 /* SMUserManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUserManagedObject.h; sourceTree = "<group>"; };
+		42D41E4E17C22D1D00769A97 /* SMUserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUserSession.h; sourceTree = "<group>"; };
+		42D41E4F17C22D1D00769A97 /* SMVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMVersion.h; sourceTree = "<group>"; };
+		42D41E5017C22D1D00769A97 /* StackMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMob.h; sourceTree = "<group>"; };
+		42D41E5117C22D1D00769A97 /* StackMobPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobPush.h; sourceTree = "<group>"; };
+		42D41E5217C22D1D00769A97 /* Synchronization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Synchronization.h; sourceTree = "<group>"; };
+		42D41E5317C22D1D00769A97 /* SystemInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInformation.h; sourceTree = "<group>"; };
+		42D41E5417C22D1D00769A97 /* libstackmob-v2.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libstackmob-v2.1.0.a"; sourceTree = "<group>"; };
+		42D41E5717C22D4C00769A97 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		42D41E5917C22D5400769A97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		42D41E5B17C22D5B00769A97 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		42D41E5D17C22D6300769A97 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		42D41E5F17C22FF400769A97 /* Model 10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 10.xcdatamodel"; sourceTree = "<group>"; };
+		42D41E7517C231AF00769A97 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		42D41E7617C231AF00769A97 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		42D41E7817C231B000769A97 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		42D41E7917C231B000769A97 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		42D41E7B17C231B000769A97 /* Item_Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item_Photo.h; sourceTree = "<group>"; };
+		42D41E7C17C231B000769A97 /* Item_Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item_Photo.m; sourceTree = "<group>"; };
+		42D41E7E17C231B000769A97 /* LocationAtHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtHome.h; sourceTree = "<group>"; };
+		42D41E7F17C231B000769A97 /* LocationAtHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtHome.m; sourceTree = "<group>"; };
+		42D41E8117C231B000769A97 /* LocationAtShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtShop.h; sourceTree = "<group>"; };
+		42D41E8217C231B000769A97 /* LocationAtShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtShop.m; sourceTree = "<group>"; };
+		42D41E8417C231B000769A97 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		42D41E8517C231B000769A97 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		42D41E8717C231B000769A97 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		42D41E8817C231B000769A97 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		42D41E8A17C23FCE00769A97 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		42D41E8B17C23FCE00769A97 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		42D8481617A54F7E005BF2F6 /* Model 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 7.xcdatamodel"; sourceTree = "<group>"; };
+		42D8481A17A550FE005BF2F6 /* Model 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 8.xcdatamodel"; sourceTree = "<group>"; };
+		42D8481B17A55310005BF2F6 /* Model7toModel8.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model7toModel8.xcmappingmodel; sourceTree = "<group>"; };
+		42D8485317A55489005BF2F6 /* DefaultData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DefaultData.sqlite; sourceTree = "<group>"; };
+		42D8A17E179BFF7500273DAD /* DefaultData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DefaultData.xml; sourceTree = "<group>"; };
+		42D8A180179C835200273DAD /* CoreDataImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataImporter.h; sourceTree = "<group>"; };
+		42D8A181179C835200273DAD /* CoreDataImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataImporter.m; sourceTree = "<group>"; };
+		42F12F27178003C0001E0D8F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		42F12F2A1780078D001E0D8F /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		42F12F2B1780078D001E0D8F /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		42F4F986178F5E5000081A52 /* ItemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemVC.h; sourceTree = "<group>"; };
+		42F4F987178F5E5000081A52 /* ItemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemVC.m; sourceTree = "<group>"; };
+		42F80B7C17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model3toModel4.xcmappingmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4227D4EE177DB1E10017DF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D41E5E17C22D6300769A97 /* CoreLocation.framework in Frameworks */,
+				42D41E5C17C22D5B00769A97 /* Security.framework in Frameworks */,
+				42D41E5A17C22D5400769A97 /* SystemConfiguration.framework in Frameworks */,
+				42D41E5817C22D4C00769A97 /* MobileCoreServices.framework in Frameworks */,
+				42F12F28178003C0001E0D8F /* CoreData.framework in Frameworks */,
+				42D41E5617C22D1D00769A97 /* libstackmob-v2.1.0.a in Frameworks */,
+				4227D4F7177DB1E10017DF21 /* CoreGraphics.framework in Frameworks */,
+				4227D4F9177DB1E10017DF21 /* UIKit.framework in Frameworks */,
+				4227D4F5177DB1E10017DF21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4227D50F177DB1E10017DF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4227D514177DB1E10017DF21 /* XCTest.framework in Frameworks */,
+				4227D516177DB1E10017DF21 /* UIKit.framework in Frameworks */,
+				4227D515177DB1E10017DF21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4227D4E8177DB1E10017DF21 = {
+			isa = PBXGroup;
+			children = (
+				42D41E1C17C22D1D00769A97 /* StackMob-v2.1.0 */,
+				4227D4FA177DB1E10017DF21 /* Grocery Cloud */,
+				4227D519177DB1E10017DF21 /* Grocery CloudTests */,
+				4227D4F3177DB1E10017DF21 /* Frameworks */,
+				4227D4F2177DB1E10017DF21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4227D4F2177DB1E10017DF21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4227D4F1177DB1E10017DF21 /* Grocery Cloud.app */,
+				4227D512177DB1E10017DF21 /* Grocery CloudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4227D4F3177DB1E10017DF21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42D41E5D17C22D6300769A97 /* CoreLocation.framework */,
+				42D41E5B17C22D5B00769A97 /* Security.framework */,
+				42D41E5917C22D5400769A97 /* SystemConfiguration.framework */,
+				42D41E5717C22D4C00769A97 /* MobileCoreServices.framework */,
+				42F12F27178003C0001E0D8F /* CoreData.framework */,
+				4227D4F4177DB1E10017DF21 /* Foundation.framework */,
+				4227D4F6177DB1E10017DF21 /* CoreGraphics.framework */,
+				4227D4F8177DB1E10017DF21 /* UIKit.framework */,
+				4227D513177DB1E10017DF21 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4227D4FA177DB1E10017DF21 /* Grocery Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				428FD0061796B1E9002E0D33 /* Grocery Cloud Picker Text Fields */,
+				42D00204178B66ED00DBE6FB /* Grocery Cloud Table View Controllers */,
+				42CC8BC01784471700BC85C2 /* Grocery Cloud View Controllers */,
+				427ACA30178121DF002E5F24 /* Data Model */,
+				42F12F291780051A001E0D8F /* Generic Core Data Classes */,
+				4227D503177DB1E10017DF21 /* AppDelegate.h */,
+				4227D504177DB1E10017DF21 /* AppDelegate.m */,
+				4227D506177DB1E10017DF21 /* Main.storyboard */,
+				4227D509177DB1E10017DF21 /* ViewController.h */,
+				4227D50A177DB1E10017DF21 /* ViewController.m */,
+				4227D50C177DB1E10017DF21 /* Images.xcassets */,
+				4227D4FB177DB1E10017DF21 /* Supporting Files */,
+			);
+			path = "Grocery Cloud";
+			sourceTree = "<group>";
+		};
+		4227D4FB177DB1E10017DF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4227D4FC177DB1E10017DF21 /* Grocery Cloud-Info.plist */,
+				4227D4FD177DB1E10017DF21 /* InfoPlist.strings */,
+				4227D500177DB1E10017DF21 /* main.m */,
+				4227D502177DB1E10017DF21 /* Grocery Cloud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4227D519177DB1E10017DF21 /* Grocery CloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				4227D51F177DB1E10017DF21 /* Grocery_CloudTests.m */,
+				4227D51A177DB1E10017DF21 /* Supporting Files */,
+			);
+			path = "Grocery CloudTests";
+			sourceTree = "<group>";
+		};
+		4227D51A177DB1E10017DF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4227D51B177DB1E10017DF21 /* Grocery CloudTests-Info.plist */,
+				4227D51C177DB1E10017DF21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		427ACA30178121DF002E5F24 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				42D8485317A55489005BF2F6 /* DefaultData.sqlite */,
+				42D8A17E179BFF7500273DAD /* DefaultData.xml */,
+				427ACA31178122CD002E5F24 /* Model.xcdatamodeld */,
+				42D41E8717C231B000769A97 /* Unit.h */,
+				42D41E8817C231B000769A97 /* Unit.m */,
+				42D41E8417C231B000769A97 /* User.h */,
+				42D41E8517C231B000769A97 /* User.m */,
+				42D41E8117C231B000769A97 /* LocationAtShop.h */,
+				42D41E8217C231B000769A97 /* LocationAtShop.m */,
+				42D41E7E17C231B000769A97 /* LocationAtHome.h */,
+				42D41E7F17C231B000769A97 /* LocationAtHome.m */,
+				42D41E7B17C231B000769A97 /* Item_Photo.h */,
+				42D41E7C17C231B000769A97 /* Item_Photo.m */,
+				42D41E7817C231B000769A97 /* Location.h */,
+				42D41E7917C231B000769A97 /* Location.m */,
+				42D41E7517C231AF00769A97 /* Item.h */,
+				42D41E7617C231AF00769A97 /* Item.m */,
+				42F80B7C17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel */,
+				42CB3530178440190014CF8D /* Amount.h */,
+				42CB3531178440190014CF8D /* Amount.m */,
+				42CB352C17843E040014CF8D /* Measurement.h */,
+				42CB352D17843E040014CF8D /* Measurement.m */,
+				42CC8BBE178440C000BC85C2 /* Model2toModel3.xcmappingmodel */,
+				42D8481B17A55310005BF2F6 /* Model7toModel8.xcmappingmodel */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		428FD0061796B1E9002E0D33 /* Grocery Cloud Picker Text Fields */ = {
+			isa = PBXGroup;
+			children = (
+				428FD0071796B223002E0D33 /* UnitPickerTF.h */,
+				428FD0081796B223002E0D33 /* UnitPickerTF.m */,
+				428FD00A1796B532002E0D33 /* LocationAtHomePickerTF.h */,
+				428FD00B1796B532002E0D33 /* LocationAtHomePickerTF.m */,
+				428FD00D1796B578002E0D33 /* LocationAtShopPickerTF.h */,
+				428FD00E1796B578002E0D33 /* LocationAtShopPickerTF.m */,
+			);
+			name = "Grocery Cloud Picker Text Fields";
+			sourceTree = "<group>";
+		};
+		42CC8BC01784471700BC85C2 /* Grocery Cloud View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				424C6193178FED01005402F1 /* LocationAtHomeVC.h */,
+				424C6194178FED01005402F1 /* LocationAtHomeVC.m */,
+				424C6195178FED01005402F1 /* LocationAtShopVC.h */,
+				424C6196178FED01005402F1 /* LocationAtShopVC.m */,
+				42CC8BC11784475000BC85C2 /* MigrationVC.h */,
+				42CC8BC21784475000BC85C2 /* MigrationVC.m */,
+				42F4F986178F5E5000081A52 /* ItemVC.h */,
+				42F4F987178F5E5000081A52 /* ItemVC.m */,
+				424C618A178FE9F0005402F1 /* UnitVC.h */,
+				424C618B178FE9F0005402F1 /* UnitVC.m */,
+				42D41E8A17C23FCE00769A97 /* LoginVC.h */,
+				42D41E8B17C23FCE00769A97 /* LoginVC.m */,
+			);
+			name = "Grocery Cloud View Controllers";
+			sourceTree = "<group>";
+		};
+		42D00204178B66ED00DBE6FB /* Grocery Cloud Table View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				424C618D178FECF2005402F1 /* LocationsAtHomeTVC.h */,
+				424C618E178FECF2005402F1 /* LocationsAtHomeTVC.m */,
+				424C618F178FECF2005402F1 /* LocationsAtShopTVC.h */,
+				424C6190178FECF2005402F1 /* LocationsAtShopTVC.m */,
+				42D00205178B674200DBE6FB /* PrepareTVC.h */,
+				42D00206178B674200DBE6FB /* PrepareTVC.m */,
+				42D00208178B74C700DBE6FB /* ShopTVC.h */,
+				42D00209178B74C700DBE6FB /* ShopTVC.m */,
+				424C6187178FE910005402F1 /* UnitsTVC.h */,
+				424C6188178FE910005402F1 /* UnitsTVC.m */,
+			);
+			name = "Grocery Cloud Table View Controllers";
+			sourceTree = "<group>";
+		};
+		42D41E1C17C22D1D00769A97 /* StackMob-v2.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				42D41E1D17C22D1D00769A97 /* CHANGELOG.md */,
+				42D41E1E17C22D1D00769A97 /* Headers */,
+				42D41E5417C22D1D00769A97 /* libstackmob-v2.1.0.a */,
+			);
+			path = "StackMob-v2.1.0";
+			sourceTree = "<group>";
+		};
+		42D41E1E17C22D1D00769A97 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				42D41E1F17C22D1D00769A97 /* AFHTTPClient+StackMob.h */,
+				42D41E2017C22D1D00769A97 /* AFHTTPRequestOperation+RemoveContentType.h */,
+				42D41E2117C22D1D00769A97 /* AFNetworking */,
+				42D41E2C17C22D1D00769A97 /* Base64EncodedStringFromData.h */,
+				42D41E2D17C22D1D00769A97 /* Common.h */,
+				42D41E2E17C22D1D00769A97 /* FileManagement.h */,
+				42D41E2F17C22D1D00769A97 /* KeychainWrapper.h */,
+				42D41E3017C22D1D00769A97 /* NSArray+Enumerable.h */,
+				42D41E3117C22D1D00769A97 /* NSDictionary+AtomicCounter.h */,
+				42D41E3217C22D1D00769A97 /* NSEntityDescription+StackMobSerialization.h */,
+				42D41E3317C22D1D00769A97 /* NSManagedObject+StackMobSerialization.h */,
+				42D41E3417C22D1D00769A97 /* NSManagedObjectContext+Concurrency.h */,
+				42D41E3517C22D1D00769A97 /* SMBinaryDataConversion.h */,
+				42D41E3617C22D1D00769A97 /* SMClient.h */,
+				42D41E3717C22D1D00769A97 /* SMCoreDataStore.h */,
+				42D41E3817C22D1D00769A97 /* SMCustomCodeRequest.h */,
+				42D41E3917C22D1D00769A97 /* SMDataStore+Protected.h */,
+				42D41E3A17C22D1D00769A97 /* SMDataStore.h */,
+				42D41E3B17C22D1D00769A97 /* SMError.h */,
+				42D41E3C17C22D1D00769A97 /* SMGeoPoint.h */,
+				42D41E3D17C22D1D00769A97 /* SMHTTPRequestOperation.h */,
+				42D41E3E17C22D1D00769A97 /* SMIncrementalStore+Query.h */,
+				42D41E3F17C22D1D00769A97 /* SMIncrementalStore.h */,
+				42D41E4017C22D1D00769A97 /* SMIncrementalStoreNode.h */,
+				42D41E4117C22D1D00769A97 /* SMJSONRequestOperation.h */,
+				42D41E4217C22D1D00769A97 /* SMLocationManager.h */,
+				42D41E4317C22D1D00769A97 /* SMNetworkReachability.h */,
+				42D41E4417C22D1D00769A97 /* SMOAuth1Client.h */,
+				42D41E4517C22D1D00769A97 /* SMOAuth2Client.h */,
+				42D41E4617C22D1D00769A97 /* SMPredicate.h */,
+				42D41E4717C22D1D00769A97 /* SMPushClient.h */,
+				42D41E4817C22D1D00769A97 /* SMPushToken.h */,
+				42D41E4917C22D1D00769A97 /* SMQuery.h */,
+				42D41E4A17C22D1D00769A97 /* SMRequestOptions.h */,
+				42D41E4B17C22D1D00769A97 /* SMResponseBlocks.h */,
+				42D41E4C17C22D1D00769A97 /* SMSyncedObject.h */,
+				42D41E4D17C22D1D00769A97 /* SMUserManagedObject.h */,
+				42D41E4E17C22D1D00769A97 /* SMUserSession.h */,
+				42D41E4F17C22D1D00769A97 /* SMVersion.h */,
+				42D41E5017C22D1D00769A97 /* StackMob.h */,
+				42D41E5117C22D1D00769A97 /* StackMobPush.h */,
+				42D41E5217C22D1D00769A97 /* Synchronization.h */,
+				42D41E5317C22D1D00769A97 /* SystemInformation.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		42D41E2117C22D1D00769A97 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				42D41E2217C22D1D00769A97 /* AFHTTPClient.h */,
+				42D41E2317C22D1D00769A97 /* AFHTTPRequestOperation.h */,
+				42D41E2417C22D1D00769A97 /* AFImageRequestOperation.h */,
+				42D41E2517C22D1D00769A97 /* AFJSONRequestOperation.h */,
+				42D41E2617C22D1D00769A97 /* AFNetworkActivityIndicatorManager.h */,
+				42D41E2717C22D1D00769A97 /* AFNetworking.h */,
+				42D41E2817C22D1D00769A97 /* AFPropertyListRequestOperation.h */,
+				42D41E2917C22D1D00769A97 /* AFURLConnectionOperation.h */,
+				42D41E2A17C22D1D00769A97 /* AFXMLRequestOperation.h */,
+				42D41E2B17C22D1D00769A97 /* UIImageView+AFNetworking.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		42F12F291780051A001E0D8F /* Generic Core Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42F12F2A1780078D001E0D8F /* CoreDataHelper.h */,
+				42F12F2B1780078D001E0D8F /* CoreDataHelper.m */,
+				42002627178ADE550000AA09 /* CoreDataTVC.h */,
+				42002628178ADE550000AA09 /* CoreDataTVC.m */,
+				428FD0031796B12C002E0D33 /* CoreDataPickerTF.h */,
+				428FD0041796B12C002E0D33 /* CoreDataPickerTF.m */,
+				42D8A180179C835200273DAD /* CoreDataImporter.h */,
+				42D8A181179C835200273DAD /* CoreDataImporter.m */,
+				425E569B17A6338800BC94CF /* Faulter.h */,
+				425E569C17A6338800BC94CF /* Faulter.m */,
+				425E569E17A6369E00BC94CF /* Thumbnailer.h */,
+				425E569F17A6369E00BC94CF /* Thumbnailer.m */,
+			);
+			name = "Generic Core Data Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4227D4F0177DB1E10017DF21 /* Grocery Cloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4227D523177DB1E10017DF21 /* Build configuration list for PBXNativeTarget "Grocery Cloud" */;
+			buildPhases = (
+				4227D4ED177DB1E10017DF21 /* Sources */,
+				4227D4EE177DB1E10017DF21 /* Frameworks */,
+				4227D4EF177DB1E10017DF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grocery Cloud";
+			productName = "Grocery Dude";
+			productReference = 4227D4F1177DB1E10017DF21 /* Grocery Cloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4227D511177DB1E10017DF21 /* Grocery CloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4227D526177DB1E10017DF21 /* Build configuration list for PBXNativeTarget "Grocery CloudTests" */;
+			buildPhases = (
+				4227D50E177DB1E10017DF21 /* Sources */,
+				4227D50F177DB1E10017DF21 /* Frameworks */,
+				4227D510177DB1E10017DF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4227D518177DB1E10017DF21 /* PBXTargetDependency */,
+			);
+			name = "Grocery CloudTests";
+			productName = "Grocery DudeTests";
+			productReference = 4227D512177DB1E10017DF21 /* Grocery CloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4227D4E9177DB1E10017DF21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tim Roadley";
+				TargetAttributes = {
+					4227D511177DB1E10017DF21 = {
+						TestTargetID = 4227D4F0177DB1E10017DF21;
+					};
+				};
+			};
+			buildConfigurationList = 4227D4EC177DB1E10017DF21 /* Build configuration list for PBXProject "Grocery Cloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4227D4E8177DB1E10017DF21;
+			productRefGroup = 4227D4F2177DB1E10017DF21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4227D4F0177DB1E10017DF21 /* Grocery Cloud */,
+				4227D511177DB1E10017DF21 /* Grocery CloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4227D4EF177DB1E10017DF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D8485417A55489005BF2F6 /* DefaultData.sqlite in Resources */,
+				42D41E5517C22D1D00769A97 /* CHANGELOG.md in Resources */,
+				4227D50D177DB1E10017DF21 /* Images.xcassets in Resources */,
+				42D8A17F179BFF7500273DAD /* DefaultData.xml in Resources */,
+				4227D4FF177DB1E10017DF21 /* InfoPlist.strings in Resources */,
+				4227D508177DB1E10017DF21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4227D510177DB1E10017DF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4227D51E177DB1E10017DF21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4227D4ED177DB1E10017DF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F4F988178F5E5000081A52 /* ItemVC.m in Sources */,
+				42D41E7A17C231B000769A97 /* Location.m in Sources */,
+				42D41E8C17C23FCE00769A97 /* LoginVC.m in Sources */,
+				428FD00C1796B532002E0D33 /* LocationAtHomePickerTF.m in Sources */,
+				428FD0051796B12C002E0D33 /* CoreDataPickerTF.m in Sources */,
+				4227D50B177DB1E10017DF21 /* ViewController.m in Sources */,
+				42D41E8017C231B000769A97 /* LocationAtHome.m in Sources */,
+				42D41E7717C231AF00769A97 /* Item.m in Sources */,
+				424C6189178FE910005402F1 /* UnitsTVC.m in Sources */,
+				425E569D17A6338800BC94CF /* Faulter.m in Sources */,
+				424C618C178FE9F0005402F1 /* UnitVC.m in Sources */,
+				42D41E8917C231B000769A97 /* Unit.m in Sources */,
+				4227D505177DB1E10017DF21 /* AppDelegate.m in Sources */,
+				424C6192178FECF2005402F1 /* LocationsAtShopTVC.m in Sources */,
+				425E56A017A6369E00BC94CF /* Thumbnailer.m in Sources */,
+				428FD00F1796B578002E0D33 /* LocationAtShopPickerTF.m in Sources */,
+				42D41E8617C231B000769A97 /* User.m in Sources */,
+				42D00207178B674200DBE6FB /* PrepareTVC.m in Sources */,
+				42CC8BC31784475000BC85C2 /* MigrationVC.m in Sources */,
+				424C6197178FED01005402F1 /* LocationAtHomeVC.m in Sources */,
+				42002629178ADE550000AA09 /* CoreDataTVC.m in Sources */,
+				42D8481C17A55310005BF2F6 /* Model7toModel8.xcmappingmodel in Sources */,
+				427ACA33178122CD002E5F24 /* Model.xcdatamodeld in Sources */,
+				42F12F2C1780078D001E0D8F /* CoreDataHelper.m in Sources */,
+				42CC8BBF178440C000BC85C2 /* Model2toModel3.xcmappingmodel in Sources */,
+				42CB352E17843E040014CF8D /* Measurement.m in Sources */,
+				42D41E8317C231B000769A97 /* LocationAtShop.m in Sources */,
+				424C6198178FED01005402F1 /* LocationAtShopVC.m in Sources */,
+				4227D501177DB1E10017DF21 /* main.m in Sources */,
+				424C6191178FECF2005402F1 /* LocationsAtHomeTVC.m in Sources */,
+				42CB3532178440190014CF8D /* Amount.m in Sources */,
+				42D8A182179C835200273DAD /* CoreDataImporter.m in Sources */,
+				42F80B7D17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel in Sources */,
+				428FD0091796B223002E0D33 /* UnitPickerTF.m in Sources */,
+				42D0020A178B74C700DBE6FB /* ShopTVC.m in Sources */,
+				42D41E7D17C231B000769A97 /* Item_Photo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4227D50E177DB1E10017DF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4227D520177DB1E10017DF21 /* Grocery_CloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4227D518177DB1E10017DF21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4227D4F0177DB1E10017DF21 /* Grocery Cloud */;
+			targetProxy = 4227D517177DB1E10017DF21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4227D4FD177DB1E10017DF21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4227D4FE177DB1E10017DF21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4227D506177DB1E10017DF21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4227D507177DB1E10017DF21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4227D51C177DB1E10017DF21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4227D51D177DB1E10017DF21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4227D521177DB1E10017DF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4227D522177DB1E10017DF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4227D524177DB1E10017DF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grocery Cloud/Grocery Cloud-Prefix.pch";
+				INFOPLIST_FILE = "Grocery Cloud/Grocery Cloud-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Timbo/Dropbox/_Book/Grocery\\ Cloud/StackMob-v2.1.0",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Grocery Cloud";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4227D525177DB1E10017DF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grocery Cloud/Grocery Cloud-Prefix.pch";
+				INFOPLIST_FILE = "Grocery Cloud/Grocery Cloud-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Timbo/Dropbox/_Book/Grocery\\ Cloud/StackMob-v2.1.0",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Grocery Cloud";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4227D527177DB1E10017DF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Grocery Dude.app/Grocery Dude";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grocery Dude/Grocery Dude-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Grocery DudeTests/Grocery CloudTests-Info.plist";
+				PRODUCT_NAME = "Grocery CloudTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4227D528177DB1E10017DF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Grocery Dude.app/Grocery Dude";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grocery Dude/Grocery Dude-Prefix.pch";
+				INFOPLIST_FILE = "Grocery DudeTests/Grocery CloudTests-Info.plist";
+				PRODUCT_NAME = "Grocery CloudTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4227D4EC177DB1E10017DF21 /* Build configuration list for PBXProject "Grocery Cloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4227D521177DB1E10017DF21 /* Debug */,
+				4227D522177DB1E10017DF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4227D523177DB1E10017DF21 /* Build configuration list for PBXNativeTarget "Grocery Cloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4227D524177DB1E10017DF21 /* Debug */,
+				4227D525177DB1E10017DF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4227D526177DB1E10017DF21 /* Build configuration list for PBXNativeTarget "Grocery CloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4227D527177DB1E10017DF21 /* Debug */,
+				4227D528177DB1E10017DF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		427ACA31178122CD002E5F24 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42D41E5F17C22FF400769A97 /* Model 10.xcdatamodel */,
+				4224656A17AF4F4700E28ECC /* Model 9.xcdatamodel */,
+				42D8481A17A550FE005BF2F6 /* Model 8.xcdatamodel */,
+				42D8481617A54F7E005BF2F6 /* Model 7.xcdatamodel */,
+				4207C1E917882BE700B82E38 /* Model 6.xcdatamodel */,
+				4207C1E21788207C00B82E38 /* Model 5.xcdatamodel */,
+				42CC8BC417844B1900BC85C2 /* Model 4.xcdatamodel */,
+				42CB352F17843FD10014CF8D /* Model 3.xcdatamodel */,
+				4279C2FA17843B0600C83C0F /* Model 2.xcdatamodel */,
+				427ACA32178122CD002E5F24 /* Model.xcdatamodel */,
+			);
+			currentVersion = 42D41E5F17C22FF400769A97 /* Model 10.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4227D4E9177DB1E10017DF21 /* Project object */;
+}

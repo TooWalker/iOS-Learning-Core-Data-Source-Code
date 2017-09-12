@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4227D4F5177DB1E10017DF21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F4177DB1E10017DF21 /* Foundation.framework */; };
+		4227D4F7177DB1E10017DF21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F6177DB1E10017DF21 /* CoreGraphics.framework */; };
+		4227D4F9177DB1E10017DF21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F8177DB1E10017DF21 /* UIKit.framework */; };
+		4227D4FF177DB1E10017DF21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4227D4FD177DB1E10017DF21 /* InfoPlist.strings */; };
+		4227D501177DB1E10017DF21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227D500177DB1E10017DF21 /* main.m */; };
+		4227D505177DB1E10017DF21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227D504177DB1E10017DF21 /* AppDelegate.m */; };
+		4227D508177DB1E10017DF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4227D506177DB1E10017DF21 /* Main.storyboard */; };
+		4227D50B177DB1E10017DF21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227D50A177DB1E10017DF21 /* ViewController.m */; };
+		4227D50D177DB1E10017DF21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4227D50C177DB1E10017DF21 /* Images.xcassets */; };
+		4227D514177DB1E10017DF21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D513177DB1E10017DF21 /* XCTest.framework */; };
+		4227D515177DB1E10017DF21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F4177DB1E10017DF21 /* Foundation.framework */; };
+		4227D516177DB1E10017DF21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227D4F8177DB1E10017DF21 /* UIKit.framework */; };
+		4227D51E177DB1E10017DF21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4227D51C177DB1E10017DF21 /* InfoPlist.strings */; };
+		4227D520177DB1E10017DF21 /* Grocery_DudeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227D51F177DB1E10017DF21 /* Grocery_DudeTests.m */; };
+		427ACA33178122CD002E5F24 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 427ACA31178122CD002E5F24 /* Model.xcdatamodeld */; };
+		42CB352E17843E040014CF8D /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB352D17843E040014CF8D /* Measurement.m */; };
+		42CB3532178440190014CF8D /* Amount.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB3531178440190014CF8D /* Amount.m */; };
+		42CC8BBF178440C000BC85C2 /* Model2toModel3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 42CC8BBE178440C000BC85C2 /* Model2toModel3.xcmappingmodel */; };
+		42CC8BC31784475000BC85C2 /* MigrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CC8BC21784475000BC85C2 /* MigrationVC.m */; };
+		42EA934417882F5A0094519C /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA934317882F5A0094519C /* Item.m */; };
+		42EA934717882F5B0094519C /* LocationAtHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA934617882F5B0094519C /* LocationAtHome.m */; };
+		42EA934A17882F5B0094519C /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA934917882F5B0094519C /* Unit.m */; };
+		42EA934D17882F5B0094519C /* LocationAtShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA934C17882F5B0094519C /* LocationAtShop.m */; };
+		42EA935017882F5B0094519C /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA934F17882F5B0094519C /* Location.m */; };
+		42F12F28178003C0001E0D8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F12F27178003C0001E0D8F /* CoreData.framework */; };
+		42F12F2C1780078D001E0D8F /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F12F2B1780078D001E0D8F /* CoreDataHelper.m */; };
+		42F80B7D17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 42F80B7C17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4227D517177DB1E10017DF21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4227D4E9177DB1E10017DF21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4227D4F0177DB1E10017DF21;
+			remoteInfo = "Grocery Dude";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4207C1E21788207C00B82E38 /* Model 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 5.xcdatamodel"; sourceTree = "<group>"; };
+		4207C1E917882BE700B82E38 /* Model 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 6.xcdatamodel"; sourceTree = "<group>"; };
+		4227D4F1177DB1E10017DF21 /* Grocery Dude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Dude.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4227D4F4177DB1E10017DF21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4227D4F6177DB1E10017DF21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4227D4F8177DB1E10017DF21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4227D4FC177DB1E10017DF21 /* Grocery Dude-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grocery Dude-Info.plist"; sourceTree = "<group>"; };
+		4227D4FE177DB1E10017DF21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4227D500177DB1E10017DF21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4227D502177DB1E10017DF21 /* Grocery Dude-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grocery Dude-Prefix.pch"; sourceTree = "<group>"; };
+		4227D503177DB1E10017DF21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4227D504177DB1E10017DF21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4227D507177DB1E10017DF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4227D509177DB1E10017DF21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4227D50A177DB1E10017DF21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4227D50C177DB1E10017DF21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4227D512177DB1E10017DF21 /* Grocery DudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grocery DudeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4227D513177DB1E10017DF21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4227D51B177DB1E10017DF21 /* Grocery DudeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grocery DudeTests-Info.plist"; sourceTree = "<group>"; };
+		4227D51D177DB1E10017DF21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4227D51F177DB1E10017DF21 /* Grocery_DudeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grocery_DudeTests.m; sourceTree = "<group>"; };
+		4279C2FA17843B0600C83C0F /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
+		427ACA32178122CD002E5F24 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		42CB352C17843E040014CF8D /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
+		42CB352D17843E040014CF8D /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
+		42CB352F17843FD10014CF8D /* Model 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 3.xcdatamodel"; sourceTree = "<group>"; };
+		42CB3530178440190014CF8D /* Amount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amount.h; sourceTree = "<group>"; };
+		42CB3531178440190014CF8D /* Amount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amount.m; sourceTree = "<group>"; };
+		42CC8BBE178440C000BC85C2 /* Model2toModel3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model2toModel3.xcmappingmodel; sourceTree = "<group>"; };
+		42CC8BC11784475000BC85C2 /* MigrationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MigrationVC.h; sourceTree = "<group>"; };
+		42CC8BC21784475000BC85C2 /* MigrationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MigrationVC.m; sourceTree = "<group>"; };
+		42CC8BC417844B1900BC85C2 /* Model 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 4.xcdatamodel"; sourceTree = "<group>"; };
+		42EA934217882F5A0094519C /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		42EA934317882F5A0094519C /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		42EA934517882F5B0094519C /* LocationAtHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtHome.h; sourceTree = "<group>"; };
+		42EA934617882F5B0094519C /* LocationAtHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtHome.m; sourceTree = "<group>"; };
+		42EA934817882F5B0094519C /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		42EA934917882F5B0094519C /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		42EA934B17882F5B0094519C /* LocationAtShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtShop.h; sourceTree = "<group>"; };
+		42EA934C17882F5B0094519C /* LocationAtShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtShop.m; sourceTree = "<group>"; };
+		42EA934E17882F5B0094519C /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		42EA934F17882F5B0094519C /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		42F12F27178003C0001E0D8F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		42F12F2A1780078D001E0D8F /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		42F12F2B1780078D001E0D8F /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		42F80B7C17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model3toModel4.xcmappingmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4227D4EE177DB1E10017DF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F12F28178003C0001E0D8F /* CoreData.framework in Frameworks */,
+				4227D4F7177DB1E10017DF21 /* CoreGraphics.framework in Frameworks */,
+				4227D4F9177DB1E10017DF21 /* UIKit.framework in Frameworks */,
+				4227D4F5177DB1E10017DF21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4227D50F177DB1E10017DF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4227D514177DB1E10017DF21 /* XCTest.framework in Frameworks */,
+				4227D516177DB1E10017DF21 /* UIKit.framework in Frameworks */,
+				4227D515177DB1E10017DF21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4227D4E8177DB1E10017DF21 = {
+			isa = PBXGroup;
+			children = (
+				4227D4FA177DB1E10017DF21 /* Grocery Dude */,
+				4227D519177DB1E10017DF21 /* Grocery DudeTests */,
+				4227D4F3177DB1E10017DF21 /* Frameworks */,
+				4227D4F2177DB1E10017DF21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4227D4F2177DB1E10017DF21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4227D4F1177DB1E10017DF21 /* Grocery Dude.app */,
+				4227D512177DB1E10017DF21 /* Grocery DudeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4227D4F3177DB1E10017DF21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42F12F27178003C0001E0D8F /* CoreData.framework */,
+				4227D4F4177DB1E10017DF21 /* Foundation.framework */,
+				4227D4F6177DB1E10017DF21 /* CoreGraphics.framework */,
+				4227D4F8177DB1E10017DF21 /* UIKit.framework */,
+				4227D513177DB1E10017DF21 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4227D4FA177DB1E10017DF21 /* Grocery Dude */ = {
+			isa = PBXGroup;
+			children = (
+				42CC8BC01784471700BC85C2 /* Grocery Dude Views */,
+				427ACA30178121DF002E5F24 /* Data Model */,
+				42F12F291780051A001E0D8F /* Generic Core Data Classes */,
+				4227D503177DB1E10017DF21 /* AppDelegate.h */,
+				4227D504177DB1E10017DF21 /* AppDelegate.m */,
+				4227D506177DB1E10017DF21 /* Main.storyboard */,
+				4227D509177DB1E10017DF21 /* ViewController.h */,
+				4227D50A177DB1E10017DF21 /* ViewController.m */,
+				4227D50C177DB1E10017DF21 /* Images.xcassets */,
+				4227D4FB177DB1E10017DF21 /* Supporting Files */,
+			);
+			path = "Grocery Dude";
+			sourceTree = "<group>";
+		};
+		4227D4FB177DB1E10017DF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4227D4FC177DB1E10017DF21 /* Grocery Dude-Info.plist */,
+				4227D4FD177DB1E10017DF21 /* InfoPlist.strings */,
+				4227D500177DB1E10017DF21 /* main.m */,
+				4227D502177DB1E10017DF21 /* Grocery Dude-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4227D519177DB1E10017DF21 /* Grocery DudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4227D51F177DB1E10017DF21 /* Grocery_DudeTests.m */,
+				4227D51A177DB1E10017DF21 /* Supporting Files */,
+			);
+			path = "Grocery DudeTests";
+			sourceTree = "<group>";
+		};
+		4227D51A177DB1E10017DF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4227D51B177DB1E10017DF21 /* Grocery DudeTests-Info.plist */,
+				4227D51C177DB1E10017DF21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		427ACA30178121DF002E5F24 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				427ACA31178122CD002E5F24 /* Model.xcdatamodeld */,
+				42EA934E17882F5B0094519C /* Location.h */,
+				42EA934F17882F5B0094519C /* Location.m */,
+				42EA934B17882F5B0094519C /* LocationAtShop.h */,
+				42EA934C17882F5B0094519C /* LocationAtShop.m */,
+				42EA934817882F5B0094519C /* Unit.h */,
+				42EA934917882F5B0094519C /* Unit.m */,
+				42EA934517882F5B0094519C /* LocationAtHome.h */,
+				42EA934617882F5B0094519C /* LocationAtHome.m */,
+				42EA934217882F5A0094519C /* Item.h */,
+				42EA934317882F5A0094519C /* Item.m */,
+				42F80B7C17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel */,
+				42CB3530178440190014CF8D /* Amount.h */,
+				42CB3531178440190014CF8D /* Amount.m */,
+				42CB352C17843E040014CF8D /* Measurement.h */,
+				42CB352D17843E040014CF8D /* Measurement.m */,
+				42CC8BBE178440C000BC85C2 /* Model2toModel3.xcmappingmodel */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		42CC8BC01784471700BC85C2 /* Grocery Dude Views */ = {
+			isa = PBXGroup;
+			children = (
+				42CC8BC11784475000BC85C2 /* MigrationVC.h */,
+				42CC8BC21784475000BC85C2 /* MigrationVC.m */,
+			);
+			name = "Grocery Dude Views";
+			sourceTree = "<group>";
+		};
+		42F12F291780051A001E0D8F /* Generic Core Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42F12F2A1780078D001E0D8F /* CoreDataHelper.h */,
+				42F12F2B1780078D001E0D8F /* CoreDataHelper.m */,
+			);
+			name = "Generic Core Data Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4227D4F0177DB1E10017DF21 /* Grocery Dude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4227D523177DB1E10017DF21 /* Build configuration list for PBXNativeTarget "Grocery Dude" */;
+			buildPhases = (
+				4227D4ED177DB1E10017DF21 /* Sources */,
+				4227D4EE177DB1E10017DF21 /* Frameworks */,
+				4227D4EF177DB1E10017DF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grocery Dude";
+			productName = "Grocery Dude";
+			productReference = 4227D4F1177DB1E10017DF21 /* Grocery Dude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4227D511177DB1E10017DF21 /* Grocery DudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4227D526177DB1E10017DF21 /* Build configuration list for PBXNativeTarget "Grocery DudeTests" */;
+			buildPhases = (
+				4227D50E177DB1E10017DF21 /* Sources */,
+				4227D50F177DB1E10017DF21 /* Frameworks */,
+				4227D510177DB1E10017DF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4227D518177DB1E10017DF21 /* PBXTargetDependency */,
+			);
+			name = "Grocery DudeTests";
+			productName = "Grocery DudeTests";
+			productReference = 4227D512177DB1E10017DF21 /* Grocery DudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4227D4E9177DB1E10017DF21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tim Roadley";
+				TargetAttributes = {
+					4227D511177DB1E10017DF21 = {
+						TestTargetID = 4227D4F0177DB1E10017DF21;
+					};
+				};
+			};
+			buildConfigurationList = 4227D4EC177DB1E10017DF21 /* Build configuration list for PBXProject "Grocery Dude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4227D4E8177DB1E10017DF21;
+			productRefGroup = 4227D4F2177DB1E10017DF21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4227D4F0177DB1E10017DF21 /* Grocery Dude */,
+				4227D511177DB1E10017DF21 /* Grocery DudeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4227D4EF177DB1E10017DF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4227D50D177DB1E10017DF21 /* Images.xcassets in Resources */,
+				4227D4FF177DB1E10017DF21 /* InfoPlist.strings in Resources */,
+				4227D508177DB1E10017DF21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4227D510177DB1E10017DF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4227D51E177DB1E10017DF21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4227D4ED177DB1E10017DF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EA934A17882F5B0094519C /* Unit.m in Sources */,
+				42EA935017882F5B0094519C /* Location.m in Sources */,
+				42EA934417882F5A0094519C /* Item.m in Sources */,
+				4227D50B177DB1E10017DF21 /* ViewController.m in Sources */,
+				4227D505177DB1E10017DF21 /* AppDelegate.m in Sources */,
+				42EA934D17882F5B0094519C /* LocationAtShop.m in Sources */,
+				42EA934717882F5B0094519C /* LocationAtHome.m in Sources */,
+				42CC8BC31784475000BC85C2 /* MigrationVC.m in Sources */,
+				427ACA33178122CD002E5F24 /* Model.xcdatamodeld in Sources */,
+				42F12F2C1780078D001E0D8F /* CoreDataHelper.m in Sources */,
+				42CC8BBF178440C000BC85C2 /* Model2toModel3.xcmappingmodel in Sources */,
+				42CB352E17843E040014CF8D /* Measurement.m in Sources */,
+				4227D501177DB1E10017DF21 /* main.m in Sources */,
+				42CB3532178440190014CF8D /* Amount.m in Sources */,
+				42F80B7D17844C0000B9E2B0 /* Model3toModel4.xcmappingmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4227D50E177DB1E10017DF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4227D520177DB1E10017DF21 /* Grocery_DudeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4227D518177DB1E10017DF21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4227D4F0177DB1E10017DF21 /* Grocery Dude */;
+			targetProxy = 4227D517177DB1E10017DF21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4227D4FD177DB1E10017DF21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4227D4FE177DB1E10017DF21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4227D506177DB1E10017DF21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4227D507177DB1E10017DF21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4227D51C177DB1E10017DF21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4227D51D177DB1E10017DF21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4227D521177DB1E10017DF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4227D522177DB1E10017DF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4227D524177DB1E10017DF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grocery Dude/Grocery Dude-Prefix.pch";
+				INFOPLIST_FILE = "Grocery Dude/Grocery Dude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4227D525177DB1E10017DF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grocery Dude/Grocery Dude-Prefix.pch";
+				INFOPLIST_FILE = "Grocery Dude/Grocery Dude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4227D527177DB1E10017DF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Grocery Dude.app/Grocery Dude";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grocery Dude/Grocery Dude-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Grocery DudeTests/Grocery DudeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4227D528177DB1E10017DF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Grocery Dude.app/Grocery Dude";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grocery Dude/Grocery Dude-Prefix.pch";
+				INFOPLIST_FILE = "Grocery DudeTests/Grocery DudeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4227D4EC177DB1E10017DF21 /* Build configuration list for PBXProject "Grocery Dude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4227D521177DB1E10017DF21 /* Debug */,
+				4227D522177DB1E10017DF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4227D523177DB1E10017DF21 /* Build configuration list for PBXNativeTarget "Grocery Dude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4227D524177DB1E10017DF21 /* Debug */,
+				4227D525177DB1E10017DF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4227D526177DB1E10017DF21 /* Build configuration list for PBXNativeTarget "Grocery DudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4227D527177DB1E10017DF21 /* Debug */,
+				4227D528177DB1E10017DF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		427ACA31178122CD002E5F24 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4207C1E917882BE700B82E38 /* Model 6.xcdatamodel */,
+				4207C1E21788207C00B82E38 /* Model 5.xcdatamodel */,
+				42CC8BC417844B1900BC85C2 /* Model 4.xcdatamodel */,
+				42CB352F17843FD10014CF8D /* Model 3.xcdatamodel */,
+				4279C2FA17843B0600C83C0F /* Model 2.xcdatamodel */,
+				427ACA32178122CD002E5F24 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4207C1E917882BE700B82E38 /* Model 6.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4227D4E9177DB1E10017DF21 /* Project object */;
+}
